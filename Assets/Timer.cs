@@ -88,12 +88,12 @@ void Start()
     }
     public void ButtonPush1()
     {
-        hasBeenStarted1 = !hasBeenStarted1;
-        hasBeenStarted2 = false;
+        hasBeenStarted1 = false;
+        hasBeenStarted2 = !hasBeenStarted2;
     }
         public void ButtonPush2()
     {
-        hasBeenStarted2 = !hasBeenStarted2;
-        hasBeenStarted1 = false;
+        hasBeenStarted2 = false;
+        hasBeenStarted1 = !hasBeenStarted1;
     }
 }
